@@ -8,10 +8,10 @@
 cd /path/to/your/project
 
 # 可以从已经下载好的包来安装
-php fake-composer.php /path/to/your/downloaded/package.zip
+php fake-composer.php require /path/to/your/downloaded/package.zip
 
 # 也可以从网上的下载链接来安装
-php fake-composer.php https://github.com/somebody/somepackage/release/v1.1.zip
+php fake-composer.php require https://github.com/somebody/somepackage/release/v1.1.zip
 ```
 
 注：
