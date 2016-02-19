@@ -15,6 +15,7 @@ php fake-composer.php https://github.com/somebody/somepackage/release/v1.1.zip
 ```
 
 注：
+
 1. 目前只支持zip压缩包
 2. 仅对linux环境进行了测试，暂不支持Windows
 3. 目前不会自动安装依赖，请使用check命令检查依赖并安装
