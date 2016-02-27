@@ -1,8 +1,10 @@
 # fake-composer
-一个仿造的composer，谨以此献给饱受大局域网摧残的国人
+一个仿造的composer，谨以此献给饱受大局域网摧残的国人。
 
-# Usage
-## 安装composer包：
+众所周知，github.com和packagist.org都是在国外，访问的速度由于你懂得的原因十分缓慢。虽然国内有大牛搭建了[镜像](http://pkg.phpcomposer.com/)，但是镜像毕竟不是实时刷新的，有的时候某个包刚刚提交或刚刚更新，而你又十分想用这个包怎么办呢？fake-composer提供了一种简洁方便的方式去安装对应的包。
+
+# 使用方法
+## 1. 安装composer包：
 
 ```sh
 cd /path/to/your/project
@@ -20,7 +22,7 @@ php fake-composer.php require https://github.com/somebody/somepackage/release/v1
 2. 仅对linux环境进行了测试，暂不支持Windows
 3. 目前不会自动安装依赖，请使用check命令检查依赖并安装
 
-## 检查所有依赖关系：
+## 2. 检查所有依赖关系：
 
 ```sh
 cd /path/to/your/project
