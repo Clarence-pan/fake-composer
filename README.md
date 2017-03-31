@@ -3,6 +3,9 @@
 
 众所周知，github.com和packagist.org都是在国外，访问的速度由于你懂得的原因十分缓慢。虽然国内有大牛搭建了[镜像](http://pkg.phpcomposer.com/)，但是镜像毕竟不是实时刷新的，有的时候某个包刚刚提交或刚刚更新，而你又十分想用这个包怎么办呢？fake-composer提供了一种简洁方便的方式去安装对应的包。
 
+# composer国内镜像日趋稳定，建议直接使用这个[国内镜像](https://pkg.phpcomposer.com/)
+
+
 # 使用方法
 ## 1. 安装composer包：
 
